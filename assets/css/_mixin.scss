@@ -1,0 +1,29 @@
+@mixin ind-flex {
+    display: flex;
+    flex-direction: row;
+}
+
+@mixin ind-flexc {
+    display: flex;
+    flex-direction: column;
+}
+
+@mixin ind-flex-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin fh($font, $line) {
+    font-size: $font;
+    line-height: $line;
+}
+
+@mixin iB {
+    font-family: "Inter Bold";
+}
+
+@mixin iR {
+    font-family: "Inter Regular";
+}
