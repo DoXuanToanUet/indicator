@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="13px" height="17px" viewBox="0 0 13 17" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group 3</title>
+    <g id="Redline" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Redline-Copy" transform="translate(-1104.000000, -295.000000)">
+            <g id="Group-2" transform="translate(860.000000, 284.000000)">
+                <g id="Group" transform="translate(230.000000, 0.000000)">
+                    <g id="Group-3" transform="translate(14.000000, 12.142857)">
+                        <rect id="Rectangle" fill="#FFFFFF" x="2" y="13.8571429" width="9" height="1"></rect>
+                        <polyline id="Path" stroke="#FFFFFF" stroke-width="2" transform="translate(6.474619, 7.729154) rotate(135.000000) translate(-6.474619, -7.729154) " points="3.61747578 4.87201091 9.3317615 4.87201091 9.3317615 10.5862966"></polyline>
+                        <line x1="10.5300969" y1="2" x2="2.44887652" y2="10.0812204" id="Path-2" stroke="#FFFFFF" transform="translate(6.489487, 6.040610) rotate(135.000000) translate(-6.489487, -6.040610) "></line>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

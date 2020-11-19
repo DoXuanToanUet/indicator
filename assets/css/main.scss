@@ -95,12 +95,13 @@ li {
                         color: $main-color;
                     }
                     .item {
+                        @include ind-flexc;
+                        text-transform: uppercase;
                         .intro-text {
                             margin-top: 14px;
                             color: $main-color;
                             font-size: 16px;
                         }
-                        @include ind-flexc;
                         .item-link {
                             position: relative;
                             transition: all 0.3s ease;
@@ -337,7 +338,7 @@ li {
     }
     &-item {
         padding: 0 15px;
-        flex: 1;
+        width: calc(100%/3);
     }
     &-title {
         .title {
@@ -383,6 +384,7 @@ li {
         font-size: 14px;
         line-height: 17px;
         font-weight: 700;
+        text-transform: uppercase;
     }
     img {
         margin-top: 16px;
@@ -412,6 +414,7 @@ li {
     right: 40px;
     color: #fff;
     border-radius: 26px;
+    filter: drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.5));
     .text-srollTop {
         font-size: 16px;
         font-weight: 700;
@@ -525,6 +528,10 @@ li {
     }
     .ind-quote-wrap {
         padding: 20px;
+    }
+    .ind-statics-item {
+        width: 100%;
+        margin-bottom: 15px;
     }
 }
 

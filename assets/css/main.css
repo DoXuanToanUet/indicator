@@ -190,6 +190,7 @@ li {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  text-transform: uppercase;
 }
 
 .ind-container .ind-header-navigation .ind-navigation_content .item .intro-text {
@@ -446,9 +447,7 @@ li {
 
 .ind-statics-item {
   padding: 0 15px;
-  -webkit-box-flex: 1;
-      -ms-flex: 1;
-          flex: 1;
+  width: calc(100%/3);
 }
 
 .ind-statics-title .title {
@@ -506,6 +505,7 @@ li {
   font-size: 14px;
   line-height: 17px;
   font-weight: 700;
+  text-transform: uppercase;
 }
 
 .ind-nextBtn img {
@@ -539,6 +539,8 @@ li {
   right: 40px;
   color: #fff;
   border-radius: 26px;
+  -webkit-filter: drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.5));
+          filter: drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.5));
   display: none;
 }
 
@@ -665,6 +667,10 @@ li {
   }
   .ind-quote-wrap {
     padding: 20px;
+  }
+  .ind-statics-item {
+    width: 100%;
+    margin-bottom: 15px;
   }
 }
 
