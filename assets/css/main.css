@@ -67,6 +67,7 @@ button {
   outline: none;
   border: none;
   cursor: pointer;
+  background: transparent;
 }
 
 a {
@@ -153,7 +154,7 @@ li {
 
 .ind-container .ind-header-navigation .ind-navigation_download a .download-text {
   padding-left: 16px;
-  font-size: 13px;
+  font-size: 14px;
   font-weight: 700;
   color: #145E8A;
 }
@@ -592,6 +593,28 @@ li {
   line-height: 17px;
 }
 
+.ind-anchor .anchor-text {
+  position: relative;
+}
+
+.ind-anchor .anchor-text:after {
+  content: "";
+  height: 1px;
+  width: 0;
+  background: #145E8A;
+  position: absolute;
+  bottom: -5px;
+  left: 50%;
+  -webkit-transform: translate(-50%, 0);
+          transform: translate(-50%, 0);
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+
+.ind-anchor .anchor-text:hover:after {
+  width: 100%;
+}
+
 .ind-anchor-input {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
@@ -628,6 +651,12 @@ li {
   color: #145E8A;
   padding: 12px 0px;
   border-bottom: 1px solid #eaeaea;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+
+.ind-anchor-content .anchor-link:hover {
+  color: #04304a;
 }
 
 .ind-container .ind-header-navigation .ind-navigation_content .item ul li.active {
@@ -807,7 +836,7 @@ li {
     font-weight: 600;
   }
   .ind-container .ind-header-navigation .ind-navigation_download a .download-text {
-    font-size: 13px;
+    font-size: 14px;
   }
 }
 

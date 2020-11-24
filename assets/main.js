@@ -80,5 +80,12 @@ $(document).ready(function() {
 
     })
 
+    // esc on keyboard
+    $(document).keydown(function(e) {
+        // ESCAPE key pressed
+        if (e.keyCode == 27) {
+            $(".ind-anchor-content").toggle();
+        }
+    })
 
 })
