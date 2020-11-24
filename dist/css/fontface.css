@@ -1,0 +1,39 @@
+/*Import Font Inter*/
+@font-face {
+  font-family: "Inter";
+  font-weight: 700;
+  src: url("../assets/fonts/Inter/Inter-Bold.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "Inter";
+  font-weight: 500;
+  src: url("../assets/fonts/Inter/Inter-Medium.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "Inter";
+  font-weight: 600;
+  src: url("../assets/fonts/Inter/Inter-SemiBold.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "Inter";
+  src: url("../assets/fonts/Inter/Inter-Italic.ttf") format("truetype");
+  font-style: italic; }
+
+@font-face {
+  font-family: "Inter";
+  font-weight: 400;
+  src: url("../assets/fonts/Inter/Inter-Regular.ttf") format("truetype"); }
+
+/*End Font Inter*/
+/*Import Font Playfair Display*/
+@font-face {
+  font-family: "PlayfairDisplay";
+  font-weight: 400;
+  src: url("../assets/fonts/Playfair_Display/PlayfairDisplay-Regular.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "PlayfairDisplay";
+  src: url("../assets/fonts/Playfair_Display/PlayfairDisplay-Italic.ttf") format("truetype");
+  font-style: italic; }
+
+/*End Font Playfair Display*/
