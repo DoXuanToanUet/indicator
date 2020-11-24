@@ -54,7 +54,7 @@ $(document).ready(function() {
         $("#ind-itemTab ul li").click(function() {
             text1 = $(this).find("a span").text().trim();
             text2 = $(this).find("a .sub-text").text().trim();
-            $(".ind-itemMobile input").val(text1 + " " + text2);
+            $(".ind-itemMobile button").text(text1 + " " + text2);
             $("#ind-itemTab").toggleClass("activeItem");
         });
 
@@ -64,7 +64,7 @@ $(document).ready(function() {
             if ($(this).hasClass('active')) {
                 var valText1 = $(this).find("a span").text().trim();
                 var valText2 = $(this).find("a .sub-text").text().trim();
-                $(".ind-itemMobile input").val(valText1 + " " + valText2);
+                $(".ind-itemMobile button").text(valText1 + " " + valText2);
             }
         });
     }
