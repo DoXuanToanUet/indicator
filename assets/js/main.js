@@ -50,23 +50,18 @@ $(document).ready(function() {
         $(".ind-itemMobile").click(function() {
             $("#ind-itemTab").toggleClass("activeItem");
         });
-
-        $("#ind-itemTab ul li").click(function() {
-            text1 = $(this).find("a span").text().trim();
-            text2 = $(this).find("a .sub-text").text().trim();
-            $(".ind-itemMobile button").text(text1 + " " + text2);
+        
+        text1default = $('.ind-navigation_content .item ul li.active').find("a span").text();
+        console.log(text1default);
+        text2default = $('.ind-navigation_content .item ul li.active').find("a .sub-text").text();
+        $('.ind-showcontent').html(text1default +' '+ text1default)
+        $('.ind-navigation_content .item ul li').click(function() {
+            text1= $(this).find("a span").text();
+            text2= $(this).find("a .sub-text").text();
+            $('.ind-showcontent').html(text1 +' '+ text2)
             $("#ind-itemTab").toggleClass("activeItem");
         });
 
-        $('.ind-navigation_content .item ul li').each(function() {
-            var txtChange = $(this).find("a span").text().trim();
-            txtChange
-            if ($(this).hasClass('active')) {
-                var valText1 = $(this).find("a span").text().trim();
-                var valText2 = $(this).find("a .sub-text").text().trim();
-                $(".ind-itemMobile button").text(valText1 + " " + valText2);
-            }
-        });
     }
 
     // Anchor Navigation effect
